@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc282bc9911d39445a8f470372c59c44, type: 3}
+  m_Name: RogueClass
+  m_EditorClassIdentifier: 
+  chosenClass: 3
+  heroColor: {r: 0.9176471, g: 0.1137255, b: 0.22352943, a: 1}
+  classImage: {fileID: 21300000, guid: 507412358d0fbe14dbdd2adb84a0505e, type: 3}
+  minNumberNeededForPassive: 3
+  maxNumberNeededForPassive: 6
+  classDescription: ' 3 / 6 Rouges in team, all hero will have 15% / 30% CRIT CHANCE,
+    dealing x2 DMG'
+  lvl_mutiplier_def: 2
+  lvl_mutiplier_dmg: 1.5
+  lvl_mutiplier_range: 1.2
+  lvl_mutiplier_cooldown: 0.9
